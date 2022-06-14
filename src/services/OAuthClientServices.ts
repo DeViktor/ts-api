@@ -45,7 +45,12 @@ class OAuthClientServices {
                     github_id: id,
                     login,
                     avatar_url,
-                    name
+                    name,
+                    account: {
+                        create: {
+                            mount: 0.0
+                        }
+                    }
                 }
             })
         }
